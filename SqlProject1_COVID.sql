@@ -192,5 +192,3 @@ JOIN covidvaccinations as vac
 	ON dea.location = vac.location 
 	and dea.date = vac.date
 Where dea.continent is not null;
-
---Create other views based on information above
